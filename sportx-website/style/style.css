@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #0b0b0b;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    background: black;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #00ffcc;
+    font-size: 28px;
+}
+
+nav a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: linear-gradient(135deg, black, #111);
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+
+.hero h2 {
+    font-size: 4rem;
+}
+
+.hero p {
+    margin: 20px 0;
+    color: #ccc;
+}
+
+.hero button {
+    padding: 15px 40px;
+    background: #00ffcc;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* PRODUCTS */
+.products {
+    padding: 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: #151515;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+}
+
+.card button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    background: #00ffcc;
+    border: none;
+    cursor: pointer;
+}
+
+/* CART */
+.cart-box {
+    padding: 80px;
+}
+
+.cart-item {
+    background: #151515;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+/* FORMS */
+.form-box {
+    width: 380px;
+    margin: 80px auto;
+    background: #151515;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.form-box input,
+.form-box textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #00ffcc;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    padding: 20px;
+    text-align: center;
+}
